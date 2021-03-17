@@ -1,0 +1,29 @@
+{
+  "name": "banking_app",
+  "version": "1.0.0",
+  "description": "checking with this project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devgiteshkankariya/banking_app.git"
+  },
+  "keywords": [
+    "banking"
+  ],
+  "author": "gitesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devgiteshkankariya/banking_app/issues"
+  },
+  "homepage": "https://github.com/devgiteshkankariya/banking_app#readme",
+  "dependencies": {
+    "aws": "0.0.3-2",
+    "body-parser": "^1.19.0",
+    "expressjs": "^1.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
