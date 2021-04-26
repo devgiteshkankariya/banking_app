@@ -6,7 +6,7 @@ const bodyParser = require("body-parser")
 
 
 
-app.listen(80, () => console.log(chalk.green("Listening on port 3000...")));
+app.listen(80, () => console.log(chalk.green("Listening on port 80...")));
 
 app.use(bodyParser.json());
 
